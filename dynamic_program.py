@@ -17,14 +17,6 @@ def read_sequences(filename):
     return sequences
 
 
-# #For debugging purposes
-# def print_matrix(matrix, name="Matrix"):
-#     print(f"{name}:")
-#     for row in matrix:
-#         print("\t".join(map(str, row)))
-#     print("\n")
-
-
 def initialize_matrices(seq1, seq2, loss_matrix, x_indexdict, y_indexdict):
     m = len(seq1) 
     n = len(seq2)
